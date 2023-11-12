@@ -1,6 +1,5 @@
 body {
     background-color:rgb(231, 197, 197);
-    margin: 20px;
 
 }
 
@@ -19,7 +18,12 @@ a:visited {
     padding-left: 20px;
     grid-column: 1;
     grid-row: 1;
-
+}
+.motto {
+  display: flex;
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
 }
 
 
