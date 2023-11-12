@@ -52,7 +52,7 @@ a:visited {
 .mainStuff {
   .h2 {
     font-family: 'Merriweather', serif;
-    font-size: 30px;
+    font-size: larger;
     color: rgb(142, 61, 58);
     border: 100px;
     padding-left: 20px;
@@ -64,6 +64,9 @@ a:visited {
   flex: 70%;
   background-color:rgb(245, 220, 220);
   padding: 20px;
+  font-family: 'Merriweather', sans-serif;
+  font-size: medium;
+  color:rgb(83, 4, 4)
 }
 /* Footer */
 .footer {
@@ -141,6 +144,9 @@ min-width: 0;
 flex: 70%;
 background-color:rgb(245, 220, 220);
 padding: 20px;
+font-family: 'Merriweather', sans-serif;
+font-size: medium;
+color:rgb(83, 4, 4)
 }
 /* Footer */
 .footer {
