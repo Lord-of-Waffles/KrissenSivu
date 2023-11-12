@@ -120,7 +120,7 @@ a:visited {
 .mainStuff {
     .mainHead {
         font-family: 'Merriweather', serif;
-        font-size: 30px;
+        font-size: auto;
         color: rgb(142, 61, 58);
         border: 100px;
         padding-left: 20px;
