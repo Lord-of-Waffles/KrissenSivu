@@ -84,18 +84,26 @@ a:visited {
 .header {
 
   font-family: 'Merriweather', serif;
-  font-size: 46px;
+  font-size: 40px;
   color: rgb(142, 61, 58);
   border: 100px;
   padding-left: 20px;
   grid-column: 1;
   grid-row: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .motto {
 display: flex;
-font-size: 30px;
+font-size: px;
 font-family: 'Merriweather', serif;
 font-style: italic;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
 }
 .navbar {
 display: flex;
