@@ -70,7 +70,7 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
-      background-color: rgb(245, 220, 220);
+      background: rgba(255, 255, 255, 0.5);
       padding: 20px;
       font-family: 'Merriweather', sans-serif;
       color: rgb(83, 4, 4);
@@ -89,9 +89,16 @@ body {
     .introBody {
       display: flex;
       padding: 20px;
-      font-size: medium;
+      font-size: large;
       justify-content: center;
     }
+    .mainBody {
+        display: flex;
+        font-size: large;
+        justify-content: center;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
     .profilePicture{
       display: flex;
       justify-content: center;
