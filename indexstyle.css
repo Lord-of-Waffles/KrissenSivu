@@ -285,8 +285,8 @@ body {
     
     /* Main content */
     .mainStuff {
-      background-color: rgb(245, 220, 220);
-      padding: 20px;
+        background: rgba(255, 255, 255, 0.5);
+        padding: 20px;
       font-family: 'Merriweather', sans-serif;
       color: rgb(83, 4, 4);
       border-radius: 8px;
