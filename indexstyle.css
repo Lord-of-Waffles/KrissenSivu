@@ -2,333 +2,414 @@
 body {
     background-color: rgb(231, 197, 197);
     
-  }
-  
-  a:link {
+    }
+    
+    a:link {
     color: rgb(142, 61, 58);
-  }
-  
-  a:visited {
+    }
+    
+    a:visited {
     color: rgb(83, 4, 4);
-  }
-  
+    }
+
   /* Common styles */
-  .headerContainer {
+    .headerContainer {
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     border-left: 1px solid rgba(255, 255, 255, 0.3);
     border-right: 1px solid rgba(255, 255, 255, 0.3);
-  }
-  
+    }
+    
   /* Desktop styles */
-  @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 600px) {
     .header,
     .subtitle {
-      display: flex;
-      font-family: 'Merriweather', serif;
-      color: rgb(142, 61, 58);
-      justify-content: center;
-      margin: auto;
-      font-size: xx-large;
+        display: flex;
+        font-family: "Montserrat";
+        font-weight: 900;        
+        color: rgb(142, 61, 58);
+        justify-content: center;
+        margin: auto;
+        font-size: xx-large;
     }
     
     .motto {
-      display: flex;
-      font-size: 30px;
-      font-family: 'Merriweather', serif;
-      font-style: italic;
-      justify-content: center;
-      color: rgb(142, 61, 58);
+        display: flex;
+        font-size: 30px;
+        font-family: "Montserrat", sans-serif;
+        font-style: italic;
+        font-weight: 700;
+        justify-content: center;
+        color: rgb(142, 61, 58);
     }
     
     /* Navigation bar */
     .navbar {
-      display: flex;
-      background-color: rgb(204, 153, 153);
-      justify-content: center;
-      border-radius: 8px;
-      border-left: 1px solid rgba(255, 255, 255, 0.3);
-      border-right: 1px solid rgba(255, 255, 255, 0.3);
+        display: flex;
+        background-color: rgb(204, 153, 153);
+        justify-content: center;
+        font-family: "Nunito";
+        border-radius: 8px;
+        border-left: 1px solid rgba(255, 255, 255, 0.3);
+        border-right: 1px solid rgba(255, 255, 255, 0.3);
     }
     
     .navbar a {
-      color: rgb(142, 61, 58);
-      padding: 14px 20px;
-      text-decoration: none;
-      text-align: center;
+        color: rgb(142, 61, 58);
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+        font-family: "Nunito";
     }
     
     .navbar a:hover {
-      background-color: #ddd;
-      color: black;
+    background-color: #ddd;
+    color: black;
+    font-family: "Nunito";
     }
     
     /* Main content */
     .mainStuff {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background: rgba(255, 255, 255, 0.5);
-      padding: 20px;
-      font-family: 'Merriweather', sans-serif;
-      color: rgb(83, 4, 4);
-      border-radius: 8px;
-      border-left: 1px solid rgba(255, 255, 255, 0.3);
-      border-right: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    color: rgb(83, 4, 4);
+    border-radius: 8px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
     }
     
     .h2 {
-      font-family: 'Merriweather', serif;
-      font-size: larger;
-      color: rgb(142, 61, 58);
-      padding-left: 20px;
+    font-family: "Montserrat";
+    font-size: larger;
+    color: rgb(142, 61, 58);
+    padding-left: 20px;
+    font-weight: bold;
     }
     
     .introBody {
-      display: flex;
-      font-size: large;
-      justify-content: center;
+    display: flex;
+    font-size: large;
+    justify-content: center;
+    font-family: "Nunito";
     }
     .mainBody1 {
         display: flex;
         font-size: large;
         justify-content: center;
+        font-family: "Nunito";
+
     }
     .mainBody2 {
         display: flex;
         font-size: large;
         justify-content: center;
+        font-family: "Nunito";
+
     }
     .mainBody3 {
         display: flex;
         font-size: large;
         justify-content: center;
-    }
-    .profilePicture{
-      display: flex;
-      justify-content: center;
-    }
-  
-    /* Footer */
-    .footer {
-      padding: 20px;
-      text-align: center;
-      background-color: rgb(204, 153, 153);
-      border-radius: 8px;
-      border-left: 1px solid rgba(255, 255, 255, 0.3);
-      border-right: 1px solid rgba(255, 255, 255, 0.3);
-    }
-    
-    .footerText {
-      font-family: 'Merriweather', serif;
-      font-size: 14px;
-      color: rgb(142, 61, 58);
-      text-align: center;
-    }
-  }
-  
-  /* Mobile styles */
-  @media only screen and (max-width: 600px) {
-    .header {
-      display: flex;
-      font-family: 'Merriweather', serif;
-      color: rgb(142, 61, 58);
-      justify-content: center;
-      margin: auto;
-      font-size: x-large;
-    }
-    
-    .subtitle {
-      display: flex;
-      font-family: 'Merriweather', serif;
-      color: rgb(142, 61, 58);
-      justify-content: center;
-      margin: auto;
-      font-size: large;
-    }
-    
-    .motto {
-      display: flex;
-      font-size: x-large;
-      font-family: 'Merriweather', serif;
-      font-style: italic;
-      justify-content: center;
-      color: rgb(142, 61, 58);
-    }
-    
-    /* Navigation bar */
-    .navbar {
-      display: flex;
-      background-color: rgb(204, 153, 153);
-      justify-content: center;
-      font-size: 14px;
-        font-weight: bold;
-      border-radius: 8px;
-      border-left: 1px solid rgba(255, 255, 255, 0.3);
-      border-right: 1px solid rgba(255, 255, 255, 0.3);
+        font-family: "Nunito";
 
     }
-    
-    .navbar a {
-      color: rgb(142, 61, 58);
-      padding: 14px 15px;
-      text-decoration: none;
-      text-align: center;
+    .profilePicture {
+        display: flex;
+        justify-content: center;
     }
-    
-    .navbar a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-    
-    /* Main content */
-    .mainStuff {
-      background-color: rgb(245, 220, 220);
-      padding: 20px;
-      font-family: 'Merriweather', sans-serif;
-      color: rgb(83, 4, 4);
-      border-radius: 8px;
-      border-left: 1px solid rgba(255, 255, 255, 0.3);
-      border-right: 1px solid rgba(255, 255, 255, 0.3);
-    }
-    
-    .h2 {
-      font-family: 'Merriweather', serif;
-      font-size: larger;
-      color: rgb(142, 61, 58);
-      display:flex;
-      justify-content: center;
-    }
-    
-    .introBody {
-      font-size: medium;
-      justify-content: center;
-    }
-    
-    
-    .profilePicture{
-      display: flex;
-      justify-content: center;
-      
-    }
-    
+
     /* Footer */
     .footer {
-      padding: 20px;
-      text-align: center;
-      background-color: rgb(204, 153, 153);
-      border-radius: 8px;
-      border-left: 1px solid rgba(255, 255, 255, 0.3);
-      border-right: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 20px;
+        text-align: center;
+        background-color: rgb(204, 153, 153);
+        border-radius: 8px;
+        border-left: 1px solid rgba(255, 255, 255, 0.3);
+        border-right: 1px solid rgba(255, 255, 255, 0.3);
     }
-    
+
     .footerText {
-      font-family: 'Merriweather', serif;
-      font-size: 14px;
-      color: rgb(142, 61, 58);
-      text-align: center;
+        font-family: "montserrat";
+        font-size: 14px;
+        color: rgb(142, 61, 58);
+        text-align: center;
     }
-  }
-  @media only screen and (max-width: 400px) {
+    }
+
+    /* Mobile styles */
+    @media only screen and (max-width: 600px) {
     .header {
-      display: flex;
-      font-family: 'Merriweather', serif;
-      color: rgb(142, 61, 58);
-      justify-content: center;
-      margin: auto;
-      font-size: large;
+        display: flex;
+        font-family: "Montserrat";
+        color: rgb(142, 61, 58);
+        justify-content: center;
+        margin: auto;
+        font-size: x-large;
     }
-    
+
     .subtitle {
-      display: flex;
-      font-family: 'Merriweather', serif;
-      color: rgb(142, 61, 58);
-      justify-content: center;
-      margin: auto;
-      font-size: large;
+        display: flex;
+        font-family: 'Montserrat';
+        color: rgb(142, 61, 58);
+        justify-content: center;
+        margin: auto;
+        font-size: large;
     }
-    
+
     .motto {
-      display: flex;
-      font-size: x-large;
-      font-family: 'Merriweather', serif;
-      font-style: italic;
-      justify-content: center;
-      color: rgb(142, 61, 58);
+        display: flex;
+        font-size: x-large;
+        font-family: "Montserrat";
+        font-style: italic;
+        justify-content: center;
+        color: rgb(142, 61, 58);
     }
-    
+
     /* Navigation bar */
     .navbar {
-      display: flex;
-      background-color: rgb(204, 153, 153);
-      justify-content: center;
-      font-size:11px;
-      font-weight: bold;
-      border-radius: 8px;
-      border-left: 1px solid rgba(255, 255, 255, 0.3);
-      border-right: 1px solid rgba(255, 255, 255, 0.3);
+        display: flex;
+        background-color: rgb(204, 153, 153);
+        justify-content: center;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 8px;
+        border-left: 1px solid rgba(255, 255, 255, 0.3);
+        border-right: 1px solid rgba(255, 255, 255, 0.3);
+        font-family: "nunito";
     }
-    
+
     .navbar a {
-      color: rgb(142, 61, 58);
-      padding: 10px 8px;
-      text-decoration: none;
-      text-align: center;
+        color: rgb(142, 61, 58);
+        padding: 14px 15px;
+        text-decoration: none;
+        text-align: center;
     }
-    
+
     .navbar a:hover {
-      background-color: #ddd;
-      color: black;
+        background-color: #ddd;
+        color: black;
     }
-    
+
+    /* Main content */
+    .mainStuff {
+        background-color: rgb(245, 220, 220);
+        padding: 20px;
+        font-family: "nunito";
+        color: rgb(83, 4, 4);
+        border-radius: 8px;
+        border-left: 1px solid rgba(255, 255, 255, 0.3);
+        border-right: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .h2 {
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: larger;
+        color: rgb(142, 61, 58);
+        display: flex;
+        justify-content: center;
+    }
+
+    .introBody {
+        font-size: medium;
+        justify-content: center;
+        font-family: "nunito";
+    }
+    .mainBody1 {
+        display: flex;
+        font-size: medium;
+        justify-content: center;
+        font-family: "nunito";
+    }
+    .mainBody2 {
+        display: flex;
+        font-size: medium;
+        justify-content: center;
+        font-family: "nunito";
+    }
+    .mainBody3 {
+        display: flex;
+        font-size: medium;
+        justify-content: center;
+        font-family: "nunito";
+    }
+
+    .profilePicture {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    /* Footer */
+    .footer {
+        padding: 20px;
+        text-align: center;
+        background-color: rgb(204, 153, 153);
+        border-radius: 8px;
+        border-left: 1px solid rgba(255, 255, 255, 0.3);
+        border-right: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .footerText {
+        font-family: "Montserrat";
+        font-size: 14px;
+        color: rgb(142, 61, 58);
+        text-align: center;
+    }
+    }
+
+    @media only screen and (max-width: 400px) {
+    .header {
+        display: flex;
+        font-family: "montserrat";
+        color: rgb(142, 61, 58);
+        justify-content: center;
+        margin: auto;
+        font-size: large;
+    }
+
+    .subtitle {
+        display: flex;
+        font-family: "Montserrat";
+        color: rgb(142, 61, 58);
+        justify-content: center;
+        margin: auto;
+        font-size: large;
+    }
+
+    .motto {
+        display: flex;
+        font-size: x-large;
+        font-family: 'Montserrat';
+        font-style: italic;
+        justify-content: center;
+        color: rgb(142, 61, 58);
+    }
+
+    /* Navigation bar */
+    .navbar {
+        display: flex;
+        background-color: rgb(204, 153, 153);
+        justify-content: center;
+        font-size: 11px;
+        font-weight: bold;
+        border-radius: 8px;
+        border-left: 1px solid rgba(255, 255, 255, 0.3);
+        border-right: 1px solid rgba(255, 255, 255, 0.3);
+        font-family: "nunito";
+    }
+
+    .navbar a {
+        color: rgb(142, 61, 58);
+        padding: 10px 8px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+
+    }
+
     /* Main content */
     .mainStuff {
         background: rgba(255, 255, 255, 0.5);
         padding: 20px;
-      font-family: 'Merriweather', sans-serif;
-      color: rgb(83, 4, 4);
-      border-radius: 8px;
-      border-left: 1px solid rgba(255, 255, 255, 0.3);
-      border-right: 1px solid rgba(255, 255, 255, 0.3);
+        font-family: "Montserrat";
+        color: rgb(83, 4, 4);
+        border-radius: 8px;
+        border-left: 1px solid rgba(255, 255, 255, 0.3);
+        border-right: 1px solid rgba(255, 255, 255, 0.3);
     }
-    
+
     .h2 {
-      display: flex;
-      font-family: 'Merriweather', serif;
-      font-size: larger;
-      color: rgb(142, 61, 58);
-      justify-content: center;
+        display: flex;
+        font-family: "Montserrat";
+        font-size: larger;
+        color: rgb(142, 61, 58);
+        justify-content: center;
+        font-weight: bold;
     }
-    
+
     .introBody {
-      font-size: medium;
-      justify-content: center;
+        font-size: medium;
+        justify-content: center;
+        font-family: "nunito";
     }
-    
-  
-  .profilePicture{
-    display: flex;
-    justify-content: center;
-    
-  }
-    
+    .mainBody1 {
+        display: flex;
+        font-size: medium;
+        justify-content: center;
+        font-family: "nunito";
+    }
+    .mainBody2 {
+        display: flex;
+        font-size: medium;
+        justify-content: center;
+        font-family: "nunito";
+    }
+    .mainBody3 {
+        display: flex;
+        font-size: medium;
+        justify-content: center;
+        font-family: "nunito";
+    }
+    .profilePicture {
+        display: flex;
+        justify-content: center;
+    }
+
+
     /* Footer */
     .footer {
-      padding: 20px;
-      text-align: center;
-      background-color: rgb(204, 153, 153);
-      border-radius: 8px;
-      border-left: 1px solid rgba(255, 255, 255, 0.3);
-      border-right: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 20px;
+        text-align: center;
+        background-color: rgb(204, 153, 153);
+        border-radius: 8px;
+        border-left: 1px solid rgba(255, 255, 255, 0.3);
+        border-right: 1px solid rgba(255, 255, 255, 0.3);
     }
-    
+
     .footerText {
-      font-family: 'Merriweather', serif;
-      font-size: 14px;
-      color: rgb(142, 61, 58);
-      text-align: center;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        color: rgb(142, 61, 58);
+        text-align: center;
     }
-  }
-  
+    }
+/*image gallery*/
+.galleryRow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+.galleryColumn {
+    flex: 25%;
+    max-width: 25%;
+    padding: 20px 20px;
+}
+.galleryColumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 616px;
+    justify-content: center;
+    border-left: 4px solid rgba(255, 255, 255, 0.3);
+    border-right: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+}
+.galleryRow img {
+    margin-top: 8px;
+    width: 200px;
+    justify-content: center;
+    border-left: 4px solid rgba(255, 255, 255, 0.3);
+    border-right: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+}
