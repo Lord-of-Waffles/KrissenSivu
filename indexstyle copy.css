@@ -92,6 +92,10 @@ a:visited {
     font-size: medium;
     justify-content: center;
   }
+  .profilePicture{
+    display: flex;
+    justify-content: center;
+  }
 
   /* Footer */
   .footer {
@@ -181,7 +185,12 @@ a:visited {
     justify-content: center;
   }
   
-
+  
+  .profilePicture{
+    display: flex;
+    justify-content: center;
+    
+  }
   
   /* Footer */
   .footer {
@@ -267,6 +276,11 @@ a:visited {
   }
   
 
+.profilePicture{
+  display: flex;
+  justify-content: center;
+  
+}
   
   /* Footer */
   .footer {
