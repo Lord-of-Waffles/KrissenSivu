@@ -270,7 +270,7 @@ body {
         color: rgb(142, 61, 58);
         justify-content: center;
         margin: auto;
-        font-size: large;
+        font-size: 15px;
     }
 
     .subtitle {
@@ -384,6 +384,8 @@ body {
     }
     }
 /*image gallery*/
+/*desktop*/
+@media only screen and (min-width: 600px) {
 .galleryRow {
     display: flex;
     flex-wrap: wrap;
@@ -412,4 +414,71 @@ body {
     border-right: 4px solid rgba(255, 255, 255, 0.3);
     border-top: 4px solid rgba(255, 255, 255, 0.3);
     border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+}
+}
+/*mobile size M&L*/
+@media only screen and (max-width: 600px) {
+    .galleryRow {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    .galleryColumn {
+        flex: 25%;
+        max-width: 25%;
+        padding: 20px 20px;
+    }
+    .galleryColumn img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 316px;
+        justify-content: center;
+        border-left: 4px solid rgba(255, 255, 255, 0.3);
+        border-right: 4px solid rgba(255, 255, 255, 0.3);
+        border-top: 4px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+    }
+    .galleryRow img {
+        margin-top: 8px;
+        width: 100px;
+        justify-content: center;
+        border-left: 4px solid rgba(255, 255, 255, 0.3);
+        border-right: 4px solid rgba(255, 255, 255, 0.3);
+        border-top: 4px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+    }
+
+
+}
+/*mobile size S*/
+@media only screen and (max-width: 400px) {
+    .galleryRow {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    .galleryColumn {
+        flex: 25%;
+        max-width: 25%;
+        padding: 20px 20px;
+    }
+    .galleryColumn img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 215px;
+        justify-content: center;
+        border-left: 4px solid rgba(255, 255, 255, 0.3);
+        border-right: 4px solid rgba(255, 255, 255, 0.3);
+        border-top: 4px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+    }
+    .galleryRow img {
+        margin-top: 8px;
+        width: 66px;
+        justify-content: center;
+        border-left: 4px solid rgba(255, 255, 255, 0.3);
+        border-right: 4px solid rgba(255, 255, 255, 0.3);
+        border-top: 4px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+    }
 }
