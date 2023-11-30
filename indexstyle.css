@@ -8,12 +8,8 @@ body {
     text-decoration: none;
     }
     .navbar a:link {
-    color: rgb(142, 61, 58);
-    }
+        color: rgb(83, 4, 4);    }
     
-    .navbar a:visited {
-    color: rgb(83, 4, 4);
-    }
 
   /* Common styles */
     .headerContainer {
