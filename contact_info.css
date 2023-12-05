@@ -148,14 +148,6 @@ body {
 
   }
 
-  .motto {
-      display: flex;
-      font-size: x-large;
-      font-family: "Montserrat";
-      font-style: italic;
-      justify-content: center;
-      color: rgb(142, 61, 58);
-  }
 
   /* Navigation bar */
   .navbar {
@@ -204,38 +196,27 @@ body {
       display: flex;
       justify-content: center;
       text-shadow:  1px 1px 2px rgba(83, 4, 4, 0.235);
-
   }
-
-  .introBody {
-      font-size: medium;
-      justify-content: center;
-      font-family: "nunito";
-  }
-  .mainBody1 {
-      display: flex;
-      font-size: medium;
-      justify-content: center;
-      font-family: "nunito";
-  }
-  .mainBody2 {
-      display: flex;
-      font-size: medium;
-      justify-content: center;
-      font-family: "nunito";
-  }
-  .mainBody3 {
-      display: flex;
-      font-size: medium;
-      justify-content: center;
-      font-family: "nunito";
-  }
-
-  .profilePicture {
-      display: flex;
-      justify-content: center;
-
-  }
+  
+    .googleMaps {
+      position: relative;
+      padding-bottom: 75%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 2px;
+      border-left: 4px solid rgb(204, 153, 153);
+      border-right: 4px solid rgb(204, 153, 153);
+      border-top: 4px solid rgb(204, 153, 153);
+      border-bottom: 4px solid rgb(204, 153, 153);
+      box-shadow:  2px 2px 4px rgba(83, 4, 4, 0.235);
+    }
+    .googleMaps iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100% !important;
+      height: 100% !important;
+    }
 
   /* Footer */
   .footer {
@@ -273,16 +254,6 @@ body {
       margin: auto;
       font-size: large;
   }
-
-  .motto {
-      display: flex;
-      font-size: x-large;
-      font-family: 'Montserrat';
-      font-style: italic;
-      justify-content: center;
-      color: rgb(142, 61, 58);
-  }
-
   /* Navigation bar */
   .navbar {
       display: flex;
@@ -327,35 +298,6 @@ body {
       text-shadow:  1px 1px 2px rgba(83, 4, 4, 0.235);
 
   }
-
-  .introBody {
-      font-size: medium;
-      justify-content: center;
-      font-family: "nunito";
-  }
-  .mainBody1 {
-      display: flex;
-      font-size: medium;
-      justify-content: center;
-      font-family: "nunito";
-  }
-  .mainBody2 {
-      display: flex;
-      font-size: medium;
-      justify-content: center;
-      font-family: "nunito";
-  }
-  .mainBody3 {
-      display: flex;
-      font-size: medium;
-      justify-content: center;
-      font-family: "nunito";
-  }
-  .profilePicture {
-      display: flex;
-      justify-content: center;
-  }
-
 
   /* Footer */
   .footer {
