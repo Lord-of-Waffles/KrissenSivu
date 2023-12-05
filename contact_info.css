@@ -32,6 +32,8 @@ body {
       justify-content: center;
       margin: auto;
       font-size: xx-large;
+      text-shadow:  1px 1px 2px rgba(83, 4, 4, 0.235);
+
   }
   
   .motto {
@@ -51,8 +53,7 @@ body {
       justify-content: center;
       font-family: "Nunito";
       border-radius: 8px;
-      border-left: 1px solid rgba(255, 255, 255, 0.3);
-      border-right: 1px solid rgba(255, 255, 255, 0.3);
+      text-decoration: none;
   }
   
   .navbar a {
@@ -67,10 +68,11 @@ body {
   background-color: #ddd;
   color: black;
   font-family: "Nunito";
+  transition: 0.3s;
   }
   
   /* Main content */
-  .mainStuff {
+  .mainText {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,6 +82,8 @@ body {
   border-radius: 8px;
   border-left: 1px solid rgba(255, 255, 255, 0.3);
   border-right: 1px solid rgba(255, 255, 255, 0.3);
+  font-family: "nunito";
+  font-size: large;
   }
   
   .h2 {
@@ -88,40 +92,8 @@ body {
   color: rgb(142, 61, 58);
   padding-left: 20px;
   font-weight: bold;
+  text-shadow:  1px 1px 2px rgba(83, 4, 4, 0.235);
   }
-  
-  .introBody {
-  display: flex;
-  font-size: large;
-  justify-content: center;
-  font-family: "Nunito";
-  }
-  .mainBody1 {
-      display: flex;
-      font-size: large;
-      justify-content: center;
-      font-family: "Nunito";
-
-  }
-  .mainBody2 {
-      display: flex;
-      font-size: large;
-      justify-content: center;
-      font-family: "Nunito";
-
-  }
-  .mainBody3 {
-      display: flex;
-      font-size: large;
-      justify-content: center;
-      font-family: "Nunito";
-
-  }
-  .profilePicture {
-      display: flex;
-      justify-content: center;
-  }
-
   /* Footer */
   .footer {
       padding: 20px;
@@ -149,6 +121,8 @@ body {
       justify-content: center;
       margin: auto;
       font-size: x-large;
+      text-shadow:  1px 1px 2px rgba(83, 4, 4, 0.235);
+
   }
 
   .subtitle {
@@ -158,6 +132,8 @@ body {
       justify-content: center;
       margin: auto;
       font-size: large;
+      text-shadow:  1px 1px 2px rgba(83, 4, 4, 0.235);
+
   }
 
   .motto {
@@ -177,8 +153,6 @@ body {
       font-size: 14px;
       font-weight: bold;
       border-radius: 8px;
-      border-left: 1px solid rgba(255, 255, 255, 0.3);
-      border-right: 1px solid rgba(255, 255, 255, 0.3);
       font-family: "nunito";
   }
 
@@ -187,15 +161,19 @@ body {
       padding: 14px 15px;
       text-decoration: none;
       text-align: center;
+      font-family: "nunito";
   }
 
   .navbar a:hover {
       background-color: #ddd;
       color: black;
+      font-family: "nunito";
+      text-align: center;
+      text-decoration: none;
   }
 
   /* Main content */
-  .mainStuff {
+  .mainText {
       background-color: rgb(245, 220, 220);
       padding: 20px;
       font-family: "nunito";
@@ -203,6 +181,7 @@ body {
       border-radius: 8px;
       border-left: 1px solid rgba(255, 255, 255, 0.3);
       border-right: 1px solid rgba(255, 255, 255, 0.3);
+      
   }
 
   .h2 {
@@ -212,6 +191,8 @@ body {
       color: rgb(142, 61, 58);
       display: flex;
       justify-content: center;
+      text-shadow:  1px 1px 2px rgba(83, 4, 4, 0.235);
+
   }
 
   .introBody {
@@ -297,9 +278,6 @@ body {
       justify-content: center;
       font-size: 11px;
       font-weight: bold;
-      border-radius: 8px;
-      border-left: 1px solid rgba(255, 255, 255, 0.3);
-      border-right: 1px solid rgba(255, 255, 255, 0.3);
       font-family: "nunito";
   }
 
@@ -334,6 +312,8 @@ body {
       color: rgb(142, 61, 58);
       justify-content: center;
       font-weight: bold;
+      text-shadow:  1px 1px 2px rgba(83, 4, 4, 0.235);
+
   }
 
   .introBody {
@@ -377,7 +357,7 @@ body {
 
   .footerText {
       font-family: 'Montserrat';
-      font-size: 14px;
+      font-size: 8px;
       color: rgb(142, 61, 58);
       text-align: center;
   }
