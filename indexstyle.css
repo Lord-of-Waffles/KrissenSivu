@@ -8,7 +8,7 @@ body {
     text-decoration: none;
     }
     .navbar a:link {
-        color: rgb(126, 54, 51);
+        color: rgb(83, 4, 4);
         text-decoration: none;
     }
     
@@ -66,7 +66,7 @@ body {
     }
     
     .navbar a {
-        color: rgb(126, 54, 51);
+        color: rgb(83, 4, 4);
         padding: 14px 20px;
         text-decoration: none;
         text-align: center;
@@ -209,7 +209,7 @@ body {
     }
 
     .navbar a {
-        color: rgb(126, 54, 51);
+        color: rgb(83, 4, 4);
         padding: 10px 10px;
         text-decoration: none;
         text-align: center;
@@ -334,7 +334,7 @@ body {
     }
 
     .navbar a {
-        color: rgb(126, 54, 51);
+        color: rgb(83, 4, 4);
         padding: 12px 8px;
         text-decoration: none;
         text-align: center;
