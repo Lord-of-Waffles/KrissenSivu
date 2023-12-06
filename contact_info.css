@@ -8,7 +8,7 @@ body {
     text-decoration: none;
     }
     .navbar a:link {
-        color: rgb(142, 61, 58);
+        color: rgb(126, 54, 51);
         text-decoration: none;
     }
 
@@ -54,8 +54,8 @@ body {
   }
   
   .navbar a {
-      color: rgb(142, 61, 58);
-      padding: 14px 20px;
+    color: rgb(126, 54, 51);
+    padding: 14px 20px;
       text-decoration: none;
       text-align: center;
       font-family: "Nunito";
@@ -162,8 +162,8 @@ transition: 0.3s;
   }
 
   .navbar a {
-      color: rgb(142, 61, 58);
-      padding: 14px 15px;
+    color: rgb(126, 54, 51);
+    padding: 14px 15px;
       text-decoration: none;
       text-align: center;
       font-family: "nunito";
@@ -271,8 +271,8 @@ transition: 0.3s;
   }
 
   .navbar a {
-      color: rgb(142, 61, 58);
-      padding: 10px 8px;
+    color: rgb(126, 54, 51);
+    padding: 10px 8px;
       text-decoration: none;
       text-align: center;
   }
