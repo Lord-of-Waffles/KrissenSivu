@@ -8,7 +8,9 @@ body {
     text-decoration: none;
     }
     .navbar a:link {
-        color: rgb(83, 4, 4);    }
+        color: rgb(142, 61, 58);
+        text-decoration: none;
+    }
     
 
   /* Common styles */
