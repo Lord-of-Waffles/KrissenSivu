@@ -8,7 +8,8 @@ body {
     text-decoration: none;
     }
     .navbar a:link {
-      color: rgb(83, 4, 4);
+        color: rgb(142, 61, 58);
+        text-decoration: none;
     }
 
 /* Common styles */
@@ -34,6 +35,13 @@ body {
       font-size: xx-large;
       text-shadow:  1px 1px 2px rgba(83, 4, 4, 0.235);
   }
+  .header{
+    transition: 0.3s;
+}
+.header:hover{
+    scale: 110%;
+    transition: 0.4s;
+}
   /* Navigation bar */
   .navbar {
       display: flex;
@@ -80,13 +88,48 @@ body {
   font-weight: bold;
   text-shadow:  1px 1px 2px rgba(83, 4, 4, 0.235);
   }
-  .body {
+  .bodyGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    max-width: 75%;
+    }
+  .body1 {
+    display: grid;
     font-family: "nunito";
     font-size: large;
     text-align: center;
-
+    grid-row: 1;
   }
+  .body2 {
+    display: grid;
+    font-family: "nunito";
+    font-size: large;
+    text-align: center;
+    grid-row: 2;
   }
+  .body3 {
+    display: grid;
+    font-family: "nunito";
+    font-size: large;
+    text-align: center;
+    grid-row: 3;
+  }
+  .body4 {
+    display: grid;
+    font-family: "nunito";
+    font-size: large;
+    text-align: center;
+    grid-row: 4;
+  }
+  .body5 {
+    display: grid;
+    font-family: "nunito";
+    font-size: large;
+    text-align: center;
+    grid-row: 5;
+  }
+}
 
   /* Footer */
   .footer {
@@ -114,7 +157,7 @@ body {
       color: rgb(142, 61, 58);
       justify-content: center;
       margin: auto;
-      font-size: x-large;
+      font-size: 20px;
       text-shadow:  1px 1px 2px rgba(83, 4, 4, 0.235);
   }
 
@@ -265,6 +308,8 @@ body {
       color: rgb(142, 61, 58);
       justify-content: center;
       font-weight: bold;
+      text-shadow:  1px 1px 2px rgba(83, 4, 4, 0.235);
+
   }
 
   .body {
